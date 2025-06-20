@@ -1,0 +1,40 @@
+.header-content-container{
+    position:sticky;
+    top:0px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--elements-color);
+    color:var(--text-color);
+    z-index:1;
+}
+.dark {
+    --background-color: hsl(207, 26%, 17%); 
+    --text-color: white;
+    --elements-color: hsl(209, 23%, 22%);
+}
+
+.header-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-inline:10vw;
+    padding:15px;
+}
+.mode{
+    cursor:pointer;
+}
+
+.fa-solid{
+    position: relative;
+    left: 15px;
+}
+
+@media only screen and (max-width:575px){
+    .header-content{
+        margin-inline:0vw;
+        font-size:10px;
+    }
+
+    .dark-light-mode{
+    top: 1.8px;
+    }
+}

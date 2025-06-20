@@ -1,0 +1,31 @@
+.country-container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-inline:2vw;
+
+    margin-top:100px;
+    
+}
+
+.country-flag{
+    width:400px;
+    height:300px;
+    border:0.4px solid grey;
+    border-radius:10px;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.2);
+    box-shadow:0px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+.country-details{
+    width:400px;
+    min-height:300px;
+    padding:20px;
+    line-height:1.5;
+    background-color:rgba(0,0,0,0.1);
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)
+}

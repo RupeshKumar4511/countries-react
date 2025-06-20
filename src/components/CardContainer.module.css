@@ -1,0 +1,12 @@
+.CardContainer{
+    margin-top:20px;
+    display:flex;
+    min-height:100vh;
+    flex-direction:row;
+    justify-content:space-evenly ;
+    flex-wrap:wrap;
+    margin-inline:40px;
+    
+}
+
+
