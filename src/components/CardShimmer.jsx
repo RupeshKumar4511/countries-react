@@ -3,50 +3,13 @@ import './CardShimmer.css';
 const CardShimmer = () => {
   return (
  <div className='card-shimmer'>
-    <div className="card">
-        <div className="image"></div>
+    {
+        Array.from({length:15}).fill(1).map((item,i)=> <div className="card" key={i}>
+        <div className="image" ></div>
         <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
-    <div className="card">
-        <div className="image"></div>
-        <div className="content"></div>
-    </div>
+    </div>)
+    }
+    
 
   </div>
   )
